@@ -14,6 +14,10 @@ body {
     color: var(--NAVY-BLUE);
 }
 
+.header {
+    background-color: var(--WHITE);
+}
+
 .header-nav-logo {
     text-transform: uppercase;
     text-decoration: none;
@@ -87,7 +91,7 @@ btn:focus {
 .header-third-title {
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.5;
+    line-height: 1.2;
     letter-spacing: 0.4px;
 }
 
@@ -96,4 +100,31 @@ btn:focus {
     color: var(--SLATE);
     line-height: 1.5;
     letter-spacing: 0.32px;
+}
+
+.section-first {
+    background-color: var(--NAVY-BLUE);
+}
+
+.header-first-title {
+    font-size: 56px;
+    font-weight: 700;
+    letter-spacing: 1.12px;
+    line-height: 1.07;
+    color: var(--WHITE);
+    text-align: center;
+}
+
+.header-second-title {
+    color: var(--NAVY-BLUE);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.section-fourth {
+    background-color: var(--CLOUD);
 }
