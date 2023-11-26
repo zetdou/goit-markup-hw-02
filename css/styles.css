@@ -70,15 +70,16 @@ body {
 
 .header-nav-list-item:hover,
 .header-nav-list-item:focus,
+.header-nav-list-item:active,
 .header-address-list-item:focus,
-.header-address-list-item:hover
+.header-address-list-item:hover,
 .header-address-list-item:active {
     color: var(--OCEAN);  
 }
 
 .btn {
     background-color: var(--IRIS);
-    color: var(--WHITE);
+    color: var(--CLOUD);
     cursor: pointer;
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
@@ -89,6 +90,7 @@ body {
 
 .btn:hover,
 .btn:focus {
+    color: var(--WHITE);
     background-color: var(--OCEAN);
 }
 
@@ -118,6 +120,7 @@ body {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
+    color: var(--NAVY-BLUE);
 }
 
 .description-text {
@@ -156,4 +159,11 @@ body {
 
 .section-fourth-list-item {
     background-color: var(--WHITE);
+}
+
+.header-portfolio-list {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
