@@ -77,6 +77,22 @@ body {
     color: var(--OCEAN);  
 }
 
+.btn-index {
+    background-color: var(--IRIS);
+    color: var(--WHITE);
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+}
+
+.btn-index:hover,
+.btn-index:focus {
+background-color: var(--OCEAN);
+}
+
 .btn {
     background-color: var(--IRIS);
     color: var(--CLOUD);
@@ -87,6 +103,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.64px;
 }
+
 
 .btn:hover,
 .btn:focus {
