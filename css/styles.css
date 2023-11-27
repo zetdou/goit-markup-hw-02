@@ -15,9 +15,6 @@ body {
     background-color: var(--WHITE);
 }
 
-.header {
-    background-color: var(--WHITE);
-}
 
 .logo {
     text-transform: uppercase;
@@ -45,7 +42,7 @@ body {
     color: var(--CLOUD);
 }
 
-.header-nav-list-item {
+.header-item {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -53,7 +50,7 @@ body {
     color: var(--NAVY-BLUE);   
 }
 
-.header-address-list-item {
+.address-item {
     color: var(--NAVY-BLUE);
 }
 
@@ -61,19 +58,19 @@ body {
     font-style: normal;
 }
 
-.header-address-list-item {
+.address-item {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--SLATE);
 }
 
-.header-nav-list-item:hover,
-.header-nav-list-item:focus,
-.header-nav-list-item:active,
-.header-address-list-item:focus,
-.header-address-list-item:hover,
-.header-address-list-item:active {
+.header-item:hover,
+.header-item:focus,
+.header-item:active,
+.address-item:focus,
+.address-list-item:hover,
+.address-item:active {
     color: var(--OCEAN);  
 }
 
@@ -132,15 +129,8 @@ background-color: var(--OCEAN);
     letter-spacing: 0.32px;
 }
 
-.header-third-title {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.4px;
-    color: var(--NAVY-BLUE);
-}
 
-.description-text {
+.list-text {
     font-size: 16px;
     color: var(--SLATE);
     line-height: 1.5;
@@ -151,7 +141,7 @@ background-color: var(--OCEAN);
     background-color: var(--NAVY-BLUE);
 }
 
-.header-first-title {
+.title {
     font-size: 56px;
     font-weight: 700;
     letter-spacing: 1.12px;
@@ -160,7 +150,7 @@ background-color: var(--OCEAN);
     text-align: center;
 }
 
-.header-second-title {
+.title-section {
     color: var(--NAVY-BLUE);
     text-align: center;
     font-size: 36px;
@@ -170,15 +160,15 @@ background-color: var(--OCEAN);
     text-transform: capitalize;
 }
 
-.section-fourth {
+.team-background {
     background-color: var(--CLOUD);
 }
 
-.section-fourth-list-item {
+.list-team {
     background-color: var(--WHITE);
 }
 
-.header-portfolio-list {
+.list-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
