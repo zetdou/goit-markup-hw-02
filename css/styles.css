@@ -54,7 +54,7 @@ body {
     color: var(--NAVY-BLUE);
 }
 
-.header-address {
+.address {
     font-style: normal;
 }
 
@@ -137,7 +137,7 @@ background-color: var(--OCEAN);
     letter-spacing: 0.32px;
 }
 
-.section-first {
+.title-background {
     background-color: var(--NAVY-BLUE);
 }
 
@@ -175,3 +175,4 @@ background-color: var(--OCEAN);
     letter-spacing: 0.02em;
     color: var(--NAVY-BLUE);
 }
+
