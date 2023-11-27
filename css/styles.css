@@ -69,7 +69,7 @@ body {
 .header-item:focus,
 .header-item:active,
 .address-item:focus,
-.address-list-item:hover,
+.address-item:hover,
 .address-item:active {
     color: var(--OCEAN);  
 }
